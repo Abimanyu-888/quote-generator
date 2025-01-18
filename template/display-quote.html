@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="main-box">
+    {% for item in data %}
+        <div class="sub-box">
+            <div class="quote">
+                {{item['quote']}}
+            </div>
+            <div class="author">
+                by {{item['author']}}
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

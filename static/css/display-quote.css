@@ -1,0 +1,16 @@
+.main-box{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+.sub-box{
+    background-color: lightblue;
+    padding:10px;
+    width:700px;
+    position: relative;
+}
+.author{
+    display:flex;
+    justify-content: end;
+}
